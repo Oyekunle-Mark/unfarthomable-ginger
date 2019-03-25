@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/oyekunle-mark/unfarthomable-ginger/issues"
   },
-  "homepage": "https://github.com/oyekunle-mark/unfarthomable-ginger#readme"
+  "homepage": "https://github.com/oyekunle-mark/unfarthomable-ginger#readme",
+  "dependencies": {
+    "redux": "^4.0.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
 }
