@@ -1,0 +1,19 @@
+{
+  "name": "redux-check",
+  "version": "1.0.0",
+  "description": "A simple Redux app to put into practice the fundamental principle of the Redux library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyekunle-mark/unfarthomable-ginger.git"
+  },
+  "author": "oyekunle-oloyede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oyekunle-mark/unfarthomable-ginger/issues"
+  },
+  "homepage": "https://github.com/oyekunle-mark/unfarthomable-ginger#readme"
+}
