@@ -4,7 +4,8 @@
   "description": "A simple Redux app to put into practice the fundamental principle of the Redux library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx babel-node --presets env store.js",
+    "lint": "npx eslint . --ext .js"
   },
   "repository": {
     "type": "git",
