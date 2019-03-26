@@ -7,8 +7,8 @@ const color = (state = {}, action) => {
         id: action.id,
         title: action.title,
         color: action.color,
-        timestamp: action.timestamp,
-        rating: 0
+        rating: action.rating,
+        timestamp: action.timestamp
       };
     case C.RATE_COLOR:
       return (state.id !== action.id) ? state : {
@@ -19,3 +19,5 @@ const color = (state = {}, action) => {
       return state;
   }
 };
+
+export default color;
